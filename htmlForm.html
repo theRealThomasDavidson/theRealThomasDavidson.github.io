@@ -1,0 +1,47 @@
+<html>
+ <head>
+  <title>Mad Libs</title>
+ </head>
+<body>
+
+  <script type="text/javascript" src="C:\Users\david\Documents\htmlTest\madLibs.js"> </script>
+
+  <div class="container">
+  <h1>Mad Lib</h1>
+  <br>noun:<br>
+      <input type="text" id="noun1" value="noun">
+  <br>
+  adjective:<br>
+  <input type="text" id="adjective1" value="adjective">
+  <br>
+  adjective:<br>
+  <input type="text" id="adjective2" value="adjective">
+ 
+  <br>noun:<br>
+  <input type="text" id="noun2" value="noun">
+ 
+  <br>
+  past tense verb:<br>
+  <input type="text" id="ptVerb1" value="verb past tense">
+  <br>location:<br>
+  <input type="text" id="location" value="location">
+  
+  <br>adjective:<br>
+  <input type="text" id="adjective3" value="adjective">
+  <br>
+  <br><br>
+     
+    <button id="clicker">Generate Mad Lib</button>
+    <script>
+
+
+      var clickerButton = document.getElementById("clicker");
+      clickerButton.addEventListener("click", onButtonClick);
+
+
+    </script>
+
+	<div id="madLibText"></div>
+  </div>
+</body>
+</html>
